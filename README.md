@@ -342,18 +342,14 @@ memory limits, sleeping instances and disk persistence.
 
 ## 13. Dashboard
 
-*Screenshots: add real screenshots to `docs/screenshots/` after running the
-app locally. This repository does not use mock-ups.*
+Real screenshots of NexusRaid running locally with the synthetic samples.
+More are in [docs/screenshots](docs/screenshots/README.md).
 
-Pages: Overview, Upload dataset, Datasets, Dataset profile (with column
-inspector and correlation matrix), Analysis results (summary, domain, risk,
-findings, anomalies, trends, domain checks, method and plan), Anomaly Explorer,
-Reports, Live monitoring and Settings.
+| Analysis results (light) | Overview (dark) |
+|---|---|
+| ![Analysis results](docs/screenshots/csv_result.PNG) | ![Overview](docs/screenshots/overview.PNG) |
 
-**Theme.** The button at the top right switches between light and dark themes. The
-choice is saved in the browser (`localStorage`) and applied before the page
-draws, so it does not flash on refresh. Charts read the same colour variables,
-so they switch too.
+![Dataset profile](docs/screenshots/csv_analysis.PNG)
 
 ## 14. Example workflows
 
