@@ -192,7 +192,7 @@ duplicates, outliers, correlations and differences between groups.
 ## 9. Project architecture
 
 ```
-nexusraid/
+NexusRaid/
 ├── backend/
 │   ├── app/
 │   │   ├── main.py                # app factory, CORS, security headers, optional frontend serving
@@ -237,8 +237,8 @@ If PowerShell blocks scripts ("running scripts is disabled on this system"), eit
 `npm` and call `.\.venv\Scripts\python.exe` directly instead of activating the environment.
 
 ```powershell
-git clone https://github.com/Priyanshugairola-9/nexusraid.git
-cd nexusraid
+git clone https://github.com/Priyanshugairola-9/NexusRaid.git
+cd NexusRaid
 
 # Backend
 cd backend
